@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#abaut{
+    background-color: #eeeeee;
+    font-family: "Roboto", sans-serif;
+}
+
+/* header */
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e51a38;
+    max-width: 100%;
+    color: #fff;
+}
+
+.logo-fut{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+header h1, ul{
+    font-family: "Open Sans", sans-serif;
+    margin: 0px 0px 0px 30px;
+}
+
+header ul li{
+    display: inline-block;
+    margin-left: 10px;
+
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 20px;
+}
+/* section principal */
+#abaut {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container h2, p{
+    margin-top: 20px;
+    
+}
+.container p{ 
+    margin-left: 20px;
+}
+
+.container h2{
+    border-bottom: 1px solid black;
+    margin-left: 20px;
+}
+
+
+
+.player {
+    max-width: 600px;
+    max-height:650px;
+    width: auto;
+    height: auto;
+}
+
+.stadium {
+    max-width: 600px;
+    max-height:650px;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+.container {
+    display: flex;
+}
+
+.stadium-2 {
+    display: flex;
+}
+
+/* section */
+
+
+.contact-methods  input{
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+
+}
+
+form button{
+    background-color: #e51a38;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button:hover{
+    background-color: #dd0021cb;
+}
+
+input:focus, textarea:focus{
+    outline-color: #e51a38;
+}
+
+.contact-methods h3{
+    margin-top: 10px;
+}
+
+button{
+    display: block;
+}
+
+.contact-methods {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.social-links img{
+    height: 24px;
+
+}
+
+.social-links{
+    padding-top: 10px;
+}
+
+.social-links li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+
+}
+footer{
+    color: #fff;
+    background-color: #e51a38;
+    padding: 16px 0;
+}
+
